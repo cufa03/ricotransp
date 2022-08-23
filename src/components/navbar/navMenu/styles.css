@@ -1,0 +1,26 @@
+.navlinks {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  align-items: center;
+}
+
+.navlinks__item {
+  margin: 0 1rem;
+  font-weight: 700;
+  font-size: large;
+  text-decoration: none;
+}
+.navlinks__item:hover {
+  color: hsl(0deg, 0%, 100%);
+}
+
+.link {
+  text-decoration: none;
+  color: hsl(244deg, 100%, 16%);
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */

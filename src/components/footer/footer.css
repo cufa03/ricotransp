@@ -1,0 +1,63 @@
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(158, 158, 158, 0.171);
+}
+
+.sucursal {
+  display: flex;
+  align-items: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: bold;
+  font-size: large;
+}
+.sucursal .sucursal__icon {
+  font-size: x-large;
+  margin-right: 0.5rem;
+}
+
+.sucursal__info__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2rem 0 0 1.7rem;
+  line-height: 1.5em;
+}
+.sucursal__info__container .sucursal__info {
+  display: flex;
+  flex-direction: column;
+}
+.sucursal__info__container .sucursal__info p {
+  margin: 0 0.5rem;
+}
+.sucursal__info__container .sucursal__info .sucursal__nombre {
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+}
+.sucursal__info__container .sucursal__info .sucursal__info__description {
+  display: flex;
+}
+.sucursal__info__container .time-info {
+  position: relative;
+  right: 15rem;
+  bottom: 1rem;
+}
+
+.footer__top {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0 1rem 2rem;
+}
+
+.bottom--line {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.055);
+}
+
+.footer__bottom {
+  display: flex;
+  padding: 0.6rem 0;
+  justify-content: center;
+  align-items: center;
+  align-items: flex-end;
+}/*# sourceMappingURL=footer.css.map */
