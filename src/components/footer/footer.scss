@@ -19,7 +19,7 @@
 .sucursal__info__container {
 	display: flex;
 	justify-content: space-between;
-	margin: 0.2rem 0 0 1.7rem;
+	margin: 0.2rem 1.7rem 0 1.7rem;
 	line-height: 1.5em;
 
 	.sucursal__info {
@@ -38,9 +38,6 @@
 	}
 
 	.time-info {
-		position: relative;
-		right: 15rem;
-		bottom: 1rem;
 	}
 }
 
