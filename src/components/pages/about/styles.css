@@ -1,20 +1,33 @@
-.about__bg {
-  width: 100%;
-  background-color: rgba(255, 255, 255, 0.7);
-}
-
 .about__container {
   display: flex;
+  max-width: 1400px;
 }
-.about__container .about_img__container {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.about__container .about_img__container1 {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  z-index: 1;
+  width: 50vw;
+}
+.about__container .about_img__container1 img {
+  width: 100%;
+}
+.about__container .about_img__container2 {
+  position: absolute;
+  left: 0;
+  top: 125%;
+  z-index: 1;
+  width: 50vw;
+}
+.about__container .about_img__container2 img {
+  width: 100%;
 }
 .about__container .about__description {
   width: 70%;
   padding: 5rem;
+  z-index: 99;
+  margin-left: 50%;
+  text-align: justify;
 }
 .about__container .about__description h2 {
   font-size: 32px;
@@ -30,6 +43,7 @@
 }
 .about__container .about__description .text__description {
   font-weight: 700;
+  color: rgb(0, 0, 0);
 }
 .about__container .about__description a[data-tool-tip] {
   position: relative;
@@ -51,12 +65,4 @@
 }
 .about__container .about__description a[data-tool-tip]:hover::after {
   transform: scale(1);
-}
-
-.img__background {
-  background-image: url("../../../assets/truck.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: scroll;
 }/*# sourceMappingURL=styles.css.map */

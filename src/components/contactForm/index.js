@@ -3,7 +3,7 @@ import './styles.css';
 const ContactForm = () => {
 	return (
 		<div>
-			<div></div>{' '}
+			<div>ACA VOY A PONER UN FORULARIO DE CONTACTO</div>
 		</div>
 	);
 };
