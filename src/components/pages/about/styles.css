@@ -1,25 +1,35 @@
 .about__container {
   display: flex;
-  max-width: 1400px;
+  max-width: 1600px;
 }
-.about__container .about_img__container1 {
+.about__container .img__container .about_img__container1 {
   position: absolute;
   left: 0;
   top: 50%;
   z-index: 1;
   width: 50vw;
 }
-.about__container .about_img__container1 img {
+.about__container .img__container .about_img__container1 img {
   width: 100%;
 }
-.about__container .about_img__container2 {
+.about__container .img__container .about_img__container2 {
   position: absolute;
   left: 0;
   top: 125%;
   z-index: 1;
   width: 50vw;
 }
-.about__container .about_img__container2 img {
+.about__container .img__container .about_img__container2 img {
+  width: 100%;
+}
+.about__container .about_img__container3 {
+  top: 219%;
+  left: 0;
+  z-index: 1;
+  width: 50vw;
+  display: none;
+}
+.about__container .about_img__container3 img {
   width: 100%;
 }
 .about__container .about__description {
@@ -65,4 +75,54 @@
 }
 .about__container .about__description a[data-tool-tip]:hover::after {
   transform: scale(1);
+}
+
+@media screen and (max-width: 1024px) {
+  .about__container {
+    flex-direction: column;
+    padding-bottom: 3rem;
+    width: 100%;
+  }
+  .about__container .img__container .about_img__container1,
+.about__container .img__container .about_img__container2 {
+    display: none;
+  }
+  .about__container .about_img__container3 {
+    display: block !important;
+    width: 95%;
+  }
+  .about__container .about__description {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .about__container .img__container {
+    overflow: hidden;
+  }
+  .about__container .img__container .about_img__container1 {
+    position: relative;
+    width: 100%;
+    top: 20%;
+  }
+  .about__container .img__container .about_img__container2 {
+    position: relative !important;
+    width: 100%;
+    top: 40%;
+  }
+  .about__container .about__description {
+    width: 100%;
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 1600px) {
+  .about__container {
+    max-width: 1800px;
+  }
+  .about__container .img__container .about_img__container1 {
+    top: 10%;
+  }
+  .about__container .img__container .about_img__container2 {
+    top: 30%;
+  }
 }/*# sourceMappingURL=styles.css.map */

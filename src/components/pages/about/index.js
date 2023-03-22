@@ -5,7 +5,7 @@ import './styles.css';
 const AboutSection = () => {
 	return (
 		<div className="about__container img__background">
-			<div>
+			<div className="img__container">
 				<div className="about_img__container1">
 					<img alt="Ford working truck" src={image} />
 				</div>
@@ -14,7 +14,7 @@ const AboutSection = () => {
 				</div>
 			</div>
 
-			<div className="about__description ">
+			<div className="about__description">
 				<h2>NUESTRA EMPRESA</h2>
 				<p className="title">POLÍTICA DE CALIDAD</p>
 				<p className="title">VISIÓN</p>
@@ -57,32 +57,9 @@ const AboutSection = () => {
 					mejora continua de un Sistema de Gestión de la Calidad acorde a los
 					requerimientos de la Norma ISO 9001, versión vigente.
 				</p>
-				<p className="text__description">
-					Definimos, implementamos y monitoreamos la evolución de los siguientes
-					objetivos:
-				</p>
-				<p className="text__description">
-					* Satisfacer las necesidades de nuestros clientes y nuestros
-					requisitos comprometidos manteniendo y mejorando nuestros estándares
-					de servicio.
-					<br />
-					* Lograr un crecimiento sostenible de nuestra empresa y eficiencia en
-					el uso de los recursos humanos, tecnológicos y de infraestructura
-					disponibles.
-					<br />
-					* Propiciar el compromiso y la participación de los empleados
-					favoreciendo su crecimiento personal y profesional.
-					<br />
-					* Cumplir todos los requisitos legales aplicables a nuestra actividad.
-					<br />
-					* Cuidar el medio ambiente y emprender acciones solidarias hacia la
-					sociedad.
-					<br />* Promover la integración de los proveedores que nos acompañan
-					en la prestación de nuestros servicios. Todos los empleados y
-					directivos de Expreso Demonte estamos involucrados con la Política de
-					Calidad de nuestra organización manteniendo una actitud proactiva y
-					comprometida con ella.
-				</p>
+			</div>
+			<div className="about_img__container3">
+				<img alt="Ford working truck" src={image} />
 			</div>
 		</div>
 	);
