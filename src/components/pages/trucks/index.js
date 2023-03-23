@@ -11,23 +11,47 @@ const ourTrucks = () => {
 		<div>
 			<div className="titulo"></div>
 			<div className="gallery">
-				<figure class="gallery__item gallery__item--1">
-					<img src={camion1} class="gallery__img" alt="imagen de un camion" />
+				<figure className="gallery__item gallery__item--1">
+					<img
+						src={camion1}
+						className="gallery__img"
+						alt="imagen de un camion"
+					/>
 				</figure>
-				<figure class="gallery__item gallery__item--2">
-					<img src={camion6} class="gallery__img" alt="imagen de un camion" />
+				<figure className="gallery__item gallery__item--2">
+					<img
+						src={camion6}
+						className="gallery__img"
+						alt="imagen de un camion"
+					/>
 				</figure>
-				<figure class="gallery__item gallery__item--3">
-					<img src={camion3} class="gallery__img" alt="imagen de un camion" />
+				<figure className="gallery__item gallery__item--3">
+					<img
+						src={camion3}
+						className="gallery__img"
+						alt="imagen de un camion"
+					/>
 				</figure>
-				<figure class="gallery__item gallery__item--4">
-					<img src={camion4} class="gallery__img" alt="imagen de un camion" />
+				<figure className="gallery__item gallery__item--4">
+					<img
+						src={camion4}
+						className="gallery__img"
+						alt="imagen de un camion"
+					/>
 				</figure>
-				<figure class="gallery__item gallery__item--5">
-					<img src={camion5} class="gallery__img" alt="imagen de un camion" />
+				<figure className="gallery__item gallery__item--5">
+					<img
+						src={camion5}
+						className="gallery__img"
+						alt="imagen de un camion"
+					/>
 				</figure>
-				<figure class="gallery__item gallery__item--6">
-					<img src={camion2} class="gallery__img" alt="imagen de un camion" />
+				<figure className="gallery__item gallery__item--6">
+					<img
+						src={camion2}
+						className="gallery__img"
+						alt="imagen de un camion"
+					/>
 				</figure>
 			</div>
 		</div>
