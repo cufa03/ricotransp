@@ -8,8 +8,8 @@ const Home = () => {
     <div className='home-container'>
       <div className='container-1'>
         <div className='container-1-text'>
-          <p>TRANSPORTE RICO HNOS</p>
-          <p>
+          <p className='container-1-text__title'>TRANSPORTE RICO HNOS</p>
+          <p className='container-1-text__description'>
             Contamos con sede en Buenos Aires, cuenta con una flota moderna de 6
             camiones, especializados en el transporte de todo tipo de cargas,
             incluyendo las químicas y peligrosas. Nuestra experiencia y
@@ -39,7 +39,7 @@ const Home = () => {
           <p>(11) 5329-6741 / (11) 5615-4005</p>
           <p>info@transportericohnos.com</p>
         </div>
-        <div>
+        <div className='container-3-img'>
           <img src={img3} alt='' />
         </div>
       </div>
