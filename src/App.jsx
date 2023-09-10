@@ -8,18 +8,18 @@ import Footer from './components/footer/index';
 import ContactUs from './components/pages/contact';
 
 function App() {
-	return (
-		<div className="App">
-			<Navbar />
-			<Routes>
-				<Route path="/" exact element={<Home />} />
-				<Route path="/trucks" exact element={<OurTrucks />}></Route>
-				<Route path="/about-section" exact element={<AboutSection />}></Route>
-				<Route path="/contact" exact element={<ContactUs />} />
-			</Routes>
-			<Footer />
-		</div>
-	);
+  return (
+    <div className='app'>
+      <Navbar />
+      <Routes>
+        <Route path='/' exact element={<Home />} />
+        <Route path='/trucks' exact element={<OurTrucks />}></Route>
+        <Route path='/about-section' exact element={<AboutSection />}></Route>
+        <Route path='/contact' exact element={<ContactUs />} />
+      </Routes>
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
