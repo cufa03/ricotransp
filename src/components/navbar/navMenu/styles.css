@@ -15,6 +15,10 @@
   color: hsla(0deg, 1%, 64%, 0.74);
 }
 
+.active {
+  color: hsla(0deg, 1%, 64%, 0.74);
+}
+
 .menu-icon {
   display: none;
   cursor: pointer;

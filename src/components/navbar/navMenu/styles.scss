@@ -1,25 +1,26 @@
 .navlinks {
-	display: flex;
-	list-style: none;
-	align-items: center;
+  display: flex;
+  list-style: none;
+  align-items: center;
 }
 
 .navlinks__item {
-	margin: 0 1rem;
-	font-weight: 700;
-	font-size: large;
-	text-decoration: none;
-	color: hsl(244, 100%, 16%);
+  margin: 0 1rem;
+  font-weight: 700;
+  font-size: large;
+  text-decoration: none;
+  color: hsl(244, 100%, 16%);
 
-	&:hover {
-		color: hsla(0, 1%, 64%, 0.74);
-	}
+  &:hover {
+    color: hsla(0, 1%, 64%, 0.74);
+  }
 }
 
-.link {
+.active {
+  color: hsla(0, 1%, 64%, 0.74);
 }
 
 .menu-icon {
-	display: none;
-	cursor: pointer;
+  display: none;
+  cursor: pointer;
 }

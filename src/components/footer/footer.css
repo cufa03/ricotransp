@@ -38,6 +38,11 @@
 .sucursal__info__container .sucursal__info .sucursal__info__description {
   display: flex;
 }
+@media only screen and (max-width: 1150px) {
+  .sucursal__info__container .sucursal__info .sucursal__info__description {
+    flex-direction: column;
+  }
+}
 .footer__top {
   display: flex;
   flex-direction: column;
