@@ -4,6 +4,7 @@
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 15px;
   padding: 0 15px;
+  margin: 11px 0;
 }
 
 .gallery__img {

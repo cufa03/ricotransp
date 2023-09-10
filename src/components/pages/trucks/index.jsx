@@ -7,55 +7,55 @@ import camion5 from '../../../assets/nuestros-camiones-5.jpg';
 import camion6 from '../../../assets/nuestros-camiones-6.jpg';
 import './styles.css';
 const ourTrucks = () => {
-	return (
-		<div>
-			<div className="titulo"></div>
-			<div className="gallery">
-				<figure className="gallery__item gallery__item--1">
-					<img
-						src={camion1}
-						className="gallery__img"
-						alt="imagen de un camion"
-					/>
-				</figure>
-				<figure className="gallery__item gallery__item--2">
-					<img
-						src={camion6}
-						className="gallery__img"
-						alt="imagen de un camion"
-					/>
-				</figure>
-				<figure className="gallery__item gallery__item--3">
-					<img
-						src={camion3}
-						className="gallery__img"
-						alt="imagen de un camion"
-					/>
-				</figure>
-				<figure className="gallery__item gallery__item--4">
-					<img
-						src={camion4}
-						className="gallery__img"
-						alt="imagen de un camion"
-					/>
-				</figure>
-				<figure className="gallery__item gallery__item--5">
-					<img
-						src={camion5}
-						className="gallery__img"
-						alt="imagen de un camion"
-					/>
-				</figure>
-				<figure className="gallery__item gallery__item--6">
-					<img
-						src={camion2}
-						className="gallery__img"
-						alt="imagen de un camion"
-					/>
-				</figure>
-			</div>
-		</div>
-	);
+  return (
+    <>
+      {/* <div className="titulo"></div> */}
+      <div className='gallery'>
+        <figure className='gallery__item gallery__item--1'>
+          <img
+            src={camion1}
+            className='gallery__img'
+            alt='imagen de un camion'
+          />
+        </figure>
+        <figure className='gallery__item gallery__item--2'>
+          <img
+            src={camion6}
+            className='gallery__img'
+            alt='imagen de un camion'
+          />
+        </figure>
+        <figure className='gallery__item gallery__item--3'>
+          <img
+            src={camion3}
+            className='gallery__img'
+            alt='imagen de un camion'
+          />
+        </figure>
+        <figure className='gallery__item gallery__item--4'>
+          <img
+            src={camion4}
+            className='gallery__img'
+            alt='imagen de un camion'
+          />
+        </figure>
+        <figure className='gallery__item gallery__item--5'>
+          <img
+            src={camion5}
+            className='gallery__img'
+            alt='imagen de un camion'
+          />
+        </figure>
+        <figure className='gallery__item gallery__item--6'>
+          <img
+            src={camion2}
+            className='gallery__img'
+            alt='imagen de un camion'
+          />
+        </figure>
+      </div>
+    </>
+  );
 };
 
 export default ourTrucks;
