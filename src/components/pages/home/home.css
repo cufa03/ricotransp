@@ -80,6 +80,10 @@
   flex: 1;
   width: 100%;
 }
+.home-container .container-3 .container-3-img img {
+  display: block;
+  width: 100%;
+}
 
 @media screen and (max-width: 1024px) {
   .container-1 {
