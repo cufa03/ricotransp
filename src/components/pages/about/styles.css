@@ -125,4 +125,12 @@
   .about__container .img__container .about_img__container2 {
     top: 30%;
   }
+}
+@media screen and (max-width: 419px) {
+  .about__description {
+    padding: 2rem !important;
+  }
+  .about__description .title {
+    font-size: 24px !important;
+  }
 }/*# sourceMappingURL=styles.css.map */

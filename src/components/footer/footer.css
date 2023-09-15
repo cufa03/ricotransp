@@ -60,7 +60,7 @@
   align-items: flex-end;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 419px) {
   .footer__top {
     padding: 1rem;
   }

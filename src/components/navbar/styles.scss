@@ -81,3 +81,13 @@
     }
   }
 }
+
+@media screen and (max-width: 419px) {
+  .menu {
+    height: 1.4rem !important;
+    span {
+      height: 0.3rem !important;
+      width: 90% !important;
+    }
+  }
+}

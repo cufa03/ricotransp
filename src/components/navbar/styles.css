@@ -76,4 +76,13 @@
   .navbar-container .navlinks .link:hover {
     background-color: hsla(0, 1%, 64%, 0.74);
   }
+}
+@media screen and (max-width: 419px) {
+  .menu {
+    height: 1.4rem !important;
+  }
+  .menu span {
+    height: 0.3rem !important;
+    width: 90% !important;
+  }
 }/*# sourceMappingURL=styles.css.map */
