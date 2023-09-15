@@ -63,3 +63,22 @@
   align-items: center;
   align-items: flex-end;
 }
+
+@media screen and (max-width: 412px) {
+  .footer__top {
+    padding: 1rem;
+    .sucursal__info__container {
+      flex-direction: column;
+      gap: 5px;
+      margin: 0.3rem 0;
+      .time-info {
+        display: flex;
+        gap: 6px;
+        padding-left: 0.5rem;
+      }
+    }
+  }
+  .footer__bottom {
+    text-align: center;
+  }
+}

@@ -101,4 +101,12 @@
   .container-3 .container-3-text {
     margin-bottom: 1rem !important;
   }
+}
+@media screen and (max-width: 412px) {
+  .container-1-text {
+    width: 100%;
+  }
+  .container-2 .container-2-text {
+    text-align: center;
+  }
 }/*# sourceMappingURL=home.css.map */

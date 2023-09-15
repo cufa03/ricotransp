@@ -84,7 +84,7 @@
     width: 100%;
   }
   .about__container .img__container .about_img__container1,
-.about__container .img__container .about_img__container2 {
+  .about__container .img__container .about_img__container2 {
     display: none;
   }
   .about__container .about_img__container3 {

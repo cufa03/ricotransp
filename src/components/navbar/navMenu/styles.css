@@ -9,14 +9,14 @@
   font-weight: 700;
   font-size: large;
   text-decoration: none;
-  color: hsl(244deg, 100%, 16%);
+  color: hsl(244, 100%, 16%);
 }
 .navlinks__item:hover {
-  color: hsla(0deg, 1%, 64%, 0.74);
+  color: hsla(0, 1%, 64%, 0.74);
 }
 
 .active {
-  color: hsla(0deg, 1%, 64%, 0.74);
+  color: hsla(0, 1%, 64%, 0.74);
 }
 
 .menu-icon {
