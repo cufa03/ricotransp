@@ -1,0 +1,69 @@
+// $orange: #f06106;
+// $darkOrange: #a14d0b;
+@use '../../colors' as colors;
+nav {
+  height: 5rem;
+  width: 100%;
+  background-color: colors.$orange;
+  position: relative;
+  .navbar-inner-container {
+    // position: absolute;
+    margin: 2.5rem auto 0 auto;
+    padding: 0 2rem;
+    background-color: white;
+    width: 85%;
+    height: 4rem;
+    border: 1px solid colors.$orange;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-decoration: none;
+      color: black;
+      p {
+        font-weight: bold;
+      }
+    }
+
+    .links-container {
+      width: 40%;
+      ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+          font-weight: bold;
+          position: relative;
+          cursor: pointer;
+          a {
+            color: #000000;
+            text-decoration: none;
+          }
+          a:visited a:link {
+            color: inherit;
+          }
+        }
+        li::after {
+          content: '';
+          position: absolute;
+          left: 0;
+          top: 1.5rem;
+          width: 100%;
+          height: 1px;
+          background-color: transparent;
+          transition: background-color 0.3s;
+        }
+
+        li:hover::after {
+          background-color: colors.$orange;
+        }
+      }
+    }
+  }
+}
