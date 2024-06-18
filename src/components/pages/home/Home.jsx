@@ -1,12 +1,25 @@
 import React from 'react';
 import img3 from '../../../assets/nuestros-camiones-3.jpg';
 import img4 from '../../../assets/nuestros-camiones-4.jpg';
-import img6 from '../../../assets/nuestros-camiones-6.jpg';
+// import img6 from '../../../assets/nuestros-camiones-6.jpg';
+import img6 from '../../../assets/presentacion.jpg';
 import './home.css';
 const Home = () => {
   return (
     <div className='home-container'>
-      <div className='container-1'>
+      <div className='container-4'>
+        <div className='container-4__img'>
+          <div className='container-4__text'>
+            <div>
+              <p>
+                La opción segura y confiable para tus necesidades de transporte
+              </p>
+            </div>
+          </div>
+          <img src={img6} alt='camion afuera del deposito' />
+        </div>
+      </div>
+      {/* <div className='container-1'>
         <div className='container-1-text'>
           <p className='container-1-text__title'>TRANSPORTE RICO HNOS</p>
           <p className='container-1-text__description'>
@@ -21,7 +34,7 @@ const Home = () => {
         <div className='container-1-img'>
           <img src={img6} alt='' />
         </div>
-      </div>
+      </div> */}
 
       <div className='container-2'>
         <div className='container-2-text'>
