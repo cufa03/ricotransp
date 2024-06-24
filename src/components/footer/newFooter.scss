@@ -11,8 +11,9 @@
     margin: 0 auto;
     display: flex;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
+    gap: 1rem;
     .footer__icon--xxlarge {
       font-size: xx-large;
     }
@@ -38,7 +39,7 @@
         }
       }
       .footer__info__description {
-        margin-left: 2.5rem;
+        // margin-left: 2.5rem;
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
@@ -63,5 +64,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+
+@media only screen and (min-width: 640px) {
+  .footer__container__top {
+    flex-direction: row !important;
+    .footer__info {
+      .footer__info__description {
+        margin-left: 2.5rem;
+      }
+    }
   }
 }
